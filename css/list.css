@@ -1,0 +1,86 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 185px;
+    width: 74px;
+    height: 31px;
+    padding-left: 13px;
+    border-left: l solid #c81523;
+}
+
+.sk-list {
+    float: left;
+}
+
+.skitems {
+    float: left;
+}
+
+.sk-list ul li {
+    float: left;
+}
+
+.sk-list ul li a {
+    display: block;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.skitems ul li {
+    float: left;
+}
+
+.skitems ul li a {
+    line-height: 47px;
+    display: block;
+    padding: 0 25px;
+}
+
+.skitems ul li:last-child a::after {
+    content: '\ea45';
+    font-family: 'icomoon';
+    margin-left: 5px;
+}
+
+.sk-bd .sk-bd ul li img {
+    margin-left: 4px;
+}
+
+.sk-bd ul li {
+    width: 290px;
+    height: 460px;
+}
+
+.sk-bd ul li p {
+    margin-bottom: 17px;
+}
+
+.sk-bd ul li i {
+    font-size: 22px;
+    color: #c81523;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.sk-bd ul li span:first-child {
+    padding-right: 10px;
+}
+
+.sbar-out {
+    display: inline-block;
+    width: 130px;
+    height: 12px;
+    border: lpx solid #c81523;
+}
+
+.sbr-in {
+    width: 87%;
+    height: 100%;
+    background-color: #c81523;
+}
